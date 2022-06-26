@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.comtainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to right, #17333f, #27e7e7, #5e5897,#0a2f2f );
+    color: aliceblue;
+    border-radius: 10%;
+}
+.comtainer .btn-container{
+    display: flex;    
+}
+.comtainer .options{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+    
+}
+.comtainer .options:hover{
+    transform:scale(1.5);
+    background-color: aqua;
+}
+
+.results, .gameWinner {
+    font-size: 25px;
+}
